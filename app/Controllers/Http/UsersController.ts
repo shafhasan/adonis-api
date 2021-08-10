@@ -9,7 +9,7 @@ export default class UsersController {
     response.status(201)
     return{
       message: 'User successfully registered',
-      body: request.body(),
+      body: request.body()
     }
   }
 
